@@ -1,0 +1,8 @@
+#This file is for demonstration purposes only. Please, don't use this image for production
+
+# Use existing fedora 32 image as the base
+FROM fedora:latest
+MAINTAINER Pascal Froment <pascal.froment@gmail.com>
+
+# Run update
+RUN dnf -y update
