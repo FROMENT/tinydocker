@@ -1,6 +1,6 @@
 #This file is for demonstration purposes only. Please, don't use this image for production
 
-# Use fedora:latrest image as the base
+# Use fedora:latest image as the base
 FROM fedora:latest
 
 MAINTAINER Froment Pascal <pascalfroment@gmail.com>
