@@ -5,13 +5,13 @@ FROM fedora:latest
 
 MAINTAINER Froment Pascal <pascalfroment@gmail.com>
 
-ENV WILDFLY_VERSION 21.0.0.Beta1
+ENV WILDFLY_VERSION 21.0.0.Final
 # Install necessary packages
 RUN dnf -y install java-1.8.0-openjdk-devel tar && dnf clean all
 
 RUN mkdir -p /opt/jboss/wildfly
 
-#Add Wildfly 20.0.0.Final to this image
+#Add Wildfly 21.0.0.Final to this image
 RUN cd /tmp \
   && curl -O https://download.jboss.org/wildfly/$WILDFLY_VERSION/wildfly-$WILDFLY_VERSION.tar.gz \
       && tar xf wildfly-$WILDFLY_VERSION.tar.gz \
