@@ -1,4 +1,3 @@
-Bien sûr, je continue à partir de la dernière instruction :
 
 ### Ajouter le Dépôt Distant et Pousser les Changements
 
