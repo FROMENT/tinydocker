@@ -1,21 +1,4 @@
 
-### Ajouter le Dépôt Distant et Pousser les Changements
-
-1. **Ajouter le dépôt distant** :
-   ```bash
-   git remote add origin https://github.com/votre_utilisateur/votre_depot.git
-   ```
-
-2. **Pousser les changements vers le dépôt distant** :
-   ```bash
-   git push -u origin master
-   ```
-
-Avec ces étapes, vous aurez un README.md bien formaté dans votre dépôt Git, contenant toutes les instructions pour créer et gérer un package Python, configurer des environnements virtuels, gérer les proxies et certificats d'entreprise, et configurer Git.
-
----
-
-Copiez et collez ce contenu dans un fichier `README.md` dans votre projet Git.
 
 ```markdown
 # Créer un Package Python avec Analyse de Dépendance
